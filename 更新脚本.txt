@@ -1,0 +1,2 @@
+alter table t_supplier add (bank_area_id varchar(255));
+alter table t_supplier add constraint FK1f8kb8g5v18vs3qc0ayp58oy8 foreign key(bank_area_id) references sys_area(id_);
